@@ -7,7 +7,7 @@ exports.production = {
 
 	},
 	env: {
-		NODE_ENV: 'production'
+		NODE_ENV: '"production"'
 	}
 }
 
@@ -20,6 +20,6 @@ exports.development = {
 
 	},
 	env: {
-		NODE_ENV: 'development'
+		NODE_ENV: '"development"'
 	}
 }
